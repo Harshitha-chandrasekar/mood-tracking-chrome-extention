@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+select, textarea, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  background-color: #021a35;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#word-count {
+  font-size: 12px;
+  color: grey;
+}
+
+#history-list {
+  list-style-type: none;
+  padding-left: 0;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Mood Tracker</h1>
+
+  <!-- Mood selection -->
+  <label for="mood">Select your mood:</label>
+  <select id="mood">
+    <option value="happy">Happy</option>
+    <option value="sad">Sad</option>
+    <option value="neutral">Neutral</option>
+    <option value="excited">Excited</option>
+    <option value="bored">Bored</option>
+    <option value="angry">Angry</option>
+    <option value="confused">Confused</option>
+    <option value="surprised">Surprised</option>
+    <option value="grateful">Grateful</option>
+    <option value="love">Love</option>
+  </select>
+
+  <!-- Diary Entry -->
+  <textarea id="diary-entry" placeholder="Write your diary entry (100 words max)..." maxlength="600"></textarea>
+  <p id="word-count">0 / 100 words</p>
+
+  <button id="save-btn">Save Mood and Entry</button>
+
+  <hr>
+
+  <div id="mood-history">
+    <h2>Mood History</h2>
+    <ul id="history-list"></ul>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

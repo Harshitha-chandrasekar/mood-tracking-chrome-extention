@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Mood Tracker",
+  "version": "1.0",
+  "description": "Track your mood and write daily diary entries",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [],
+  "host_permissions": []
+}
